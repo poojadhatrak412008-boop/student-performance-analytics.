@@ -1,0 +1,62 @@
+
+==================================================================
+          STUDENT PERFORMANCE ANALYTICS SYSTEM
+==================================================================
+Number of students : 20
+Class average      : 74.88%
+Highest average    : 94.25%
+Lowest average     : 43.25%
+Students passed    : 19
+Students failed    : 1
+Average attendance : 85.35%
+------------------------------------------------------------------
+
+STUDENT RESULTS (highest average first)
+ Student_ID           Name  Total_Marks  Average_Marks Grade Result  Attendance_Percent
+        110   Riya Bhosale        377.0          94.25    A+   Pass                  99
+        102   Sneha Jadhav        365.0          91.25    A+   Pass                  98
+        118    Mitali Khot        362.0          90.50    A+   Pass                  97
+        106  Isha Kulkarni        357.0          89.25     A   Pass                  97
+        114    Kavya Nikam        355.0          88.75     A   Pass                  94
+        108  Pooja Dhatrak        344.0          86.00     A   Pass                  96
+        101    Aarav Patil        343.0          85.75     A   Pass                  95
+        120 Aditi Lokhande        340.0          85.00     A   Pass                  92
+        116   Sakshi Pawar        327.0          81.75     A   Pass                  93
+        104   Ananya Pawar        319.0          79.75     B   Pass                  91
+        112  Neha Salunkhe        315.0          78.75     B   Pass                  89
+        119   Tanmay Joshi        294.0          73.50     B   Pass                  85
+        109  Sahil Gaikwad        287.0          71.75     B   Pass                  80
+        103   Rohan Shinde        275.0          68.75     C   Pass                  82
+        115    Aditya Wagh        275.0          68.75     C   Pass                  78
+        111   Atharva Kale        244.0          61.00     C   Pass                  72
+        105    Om Deshmukh        237.0          59.25     D   Pass                  75
+        117   Pranav Sutar        203.0          50.75     D   Pass                  66
+        107    Vedant More        198.0          49.50     F   Pass                  68
+        113    Yash Chavan        173.0          43.25     F   Fail                  60
+
+SUBJECT-WISE AVERAGE MARKS
+Communication      75.90
+Electronics        75.65
+Mathematics        74.85
+Python             73.10
+Best-performing subject: Communication (75.90)
+
+TOP 3 PERFORMERS
+        Name  Average_Marks Grade
+Riya Bhosale          94.25    A+
+Sneha Jadhav          91.25    A+
+ Mitali Khot          90.50    A+
+
+Full analysis saved to: analysis_results.csv
+
+ERRORS:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
